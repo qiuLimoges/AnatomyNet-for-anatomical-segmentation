@@ -162,7 +162,7 @@ if not os.path.isfile(TRAIN_PATH):
     t.save(train_data, TRAIN_PATH)
     t.save(test_data, TEST_PATH)
 if not os.path.isfile(CET_PATH):
-    train_data, test_data = process('/home/haodata/wtzhu/dataset/pddca18/')
+    train_data, test_data = process('/home/hao/data/wtzhu/dataset/pddca18/')
     print('use train', len(train_data), 'use test', len(test_data))
     data = processCET('/home/hao/data/wtzhu/dataset/HNCetuximabclean/')
     print('use ', len(data))
